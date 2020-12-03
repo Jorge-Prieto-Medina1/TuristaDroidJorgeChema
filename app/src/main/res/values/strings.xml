@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">TuristaDroidJorgeChema</string>
+    <string name="nombreAppEnSplash">TURISTASDROID</string>
+    <string name="nombreApellidos">Realizado por Jorge Prieto y Chema Ruiz</string>
+    <string name="txtInicioDeSesion">INICIO DE SESIÓN</string>
+    <string name="txtNombreDeUsuario">NOMBRE DE USUARIO</string>
+    <string name="txtContrasena">CONTRASEÑA</string>
+    <string name="txtLogin">LOGIN</string>
 </resources>
