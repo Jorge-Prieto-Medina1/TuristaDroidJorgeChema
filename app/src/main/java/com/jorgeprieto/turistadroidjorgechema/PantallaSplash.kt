@@ -29,7 +29,7 @@ class PantallaSplash : AppCompatActivity() {
             }
 
             override fun onTransitionCompleted(p0: MotionLayout?, p1: Int) {
-                startActivity(Intent ( this@PantallaSplash, MainActivity::class.java))
+                startActivity(Intent ( this@PantallaSplash, LoginActivity::class.java))
                 finish();
             }
 
