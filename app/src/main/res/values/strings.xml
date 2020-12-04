@@ -6,4 +6,9 @@
     <string name="txtNombreDeUsuario">NOMBRE DE USUARIO</string>
     <string name="txtContrasena">CONTRASEÑA</string>
     <string name="txtLogin">LOGIN</string>
+    <string name="txtNoCuenta">No tienes cuenta?</string>
+    <string name="txtRegistroGratis">Registro gratuito</string>
+    <string name="txtRegistro">REGISTRO</string>
+    <string name="txtNombre">NOMBRE</string>
+    <string name="txtEmail">EMAIL</string>
 </resources>
