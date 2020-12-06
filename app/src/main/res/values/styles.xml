@@ -7,7 +7,10 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
     <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowBackground">@drawable/diseno_splash</item>
+        <item name="android:windowBackground">@color/ColorGrisPrincipal</item>
+    </style>
+    <style name="NavDrawerTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/ColorGrisPrincipal</item>
     </style>
     <style name="SplashTheme.NoActionBar">
         <item name="windowActionBar">false</item>

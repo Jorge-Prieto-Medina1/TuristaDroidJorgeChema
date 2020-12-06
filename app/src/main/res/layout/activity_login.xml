@@ -30,7 +30,7 @@
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/txtContrasena"
             android:hint="@string/txtContrasena" android:layout_marginTop="35dp"
-            app:layout_constraintTop_toBottomOf="@+id/txtNombreUsu" android:background="@android:color/background_light"
+            app:layout_constraintTop_toBottomOf="@+id/txtNombreDeUsu" android:background="@android:color/background_light"
             android:paddingHorizontal="10dp"/>
     <EditText
             android:layout_width="250dp"
@@ -38,14 +38,14 @@
             android:inputType="textEmailAddress"
             android:ems="10"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            android:id="@+id/txtNombreUsu"
+            android:id="@+id/txtNombreDeUsu"
             android:hint="@string/txtNombreDeUsuario" android:layout_marginTop="24dp"
             app:layout_constraintTop_toBottomOf="@+id/lblInicio" android:background="@android:color/background_light"
             android:paddingHorizontal="10dp"/>
     <Button
             android:text="@string/txtLogin"
             android:layout_width="200dp"
-            android:layout_height="60dp" android:id="@+id/btnRegistro"
+            android:layout_height="60dp" android:id="@+id/btnGuardar"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498" android:layout_marginTop="40dp"
             app:layout_constraintTop_toBottomOf="@+id/txtContrasena"
@@ -57,13 +57,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="30dp"
-            android:layout_marginTop="70dp" app:layout_constraintTop_toBottomOf="@+id/btnRegistro"
+            android:layout_marginTop="70dp" app:layout_constraintTop_toBottomOf="@+id/btnGuardar"
             app:layout_constraintBottom_toBottomOf="parent" android:textStyle="bold" android:textSize="18sp"/>
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/lblRegistro"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="28dp"
-            app:layout_constraintTop_toBottomOf="@+id/btnRegistro" android:layout_marginTop="70dp"
+            app:layout_constraintTop_toBottomOf="@+id/btnGuardar" android:layout_marginTop="70dp"
             app:layout_constraintBottom_toBottomOf="parent"
             android:textStyle="bold"
             android:textSize="18sp" android:text="@string/txtRegistroGratis" app:layout_constraintVertical_bias="0.51"/>

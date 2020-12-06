@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.home
+package com.jorgeprieto.turistadroidjorgechema.ui.gallery
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,21 +10,21 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.jorgeprieto.turistadroidjorgechema.R
 
-class HomeFragment : Fragment() {
+class MiPerfilFragment : Fragment() {
 
-  private lateinit var homeViewModel: HomeViewModel
+  private lateinit var miPerfilViewModel: MiPerfilViewModel
 
   override fun onCreateView(
     inflater: LayoutInflater,
     container: ViewGroup?,
     savedInstanceState: Bundle?
   ): View? {
-    homeViewModel =
-    ViewModelProviders.of(this).get(HomeViewModel::class.java)
-    val root = inflater.inflate(R.layout.fragment_home, container, false)
-    val textView: TextView = root.findViewById(R.id.text_home)
-    homeViewModel.text.observe(viewLifecycleOwner, Observer {
-      textView.text = it
+    miPerfilViewModel =
+    ViewModelProviders.of(this).get(miPerfilViewModel::class.java)
+    val root = inflater.inflate(R.layout.fragment_miperfil, container, false)
+
+    miPerfilViewModel.text.observe(viewLifecycleOwner, Observer {
+
     })
     return root
   }

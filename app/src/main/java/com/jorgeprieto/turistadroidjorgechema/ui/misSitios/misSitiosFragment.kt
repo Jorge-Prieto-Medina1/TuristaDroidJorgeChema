@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.gallery
+package com.jorgeprieto.turistadroidjorgechema.ui.home
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -10,21 +10,23 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.jorgeprieto.turistadroidjorgechema.R
 
-class GalleryFragment : Fragment() {
 
-  private lateinit var galleryViewModel: GalleryViewModel
+
+class MisSitiosFragment : Fragment() {
+
+  private lateinit var misSitiosViewModel: MisSitiosViewModel
 
   override fun onCreateView(
     inflater: LayoutInflater,
     container: ViewGroup?,
     savedInstanceState: Bundle?
   ): View? {
-    galleryViewModel =
-    ViewModelProviders.of(this).get(GalleryViewModel::class.java)
-    val root = inflater.inflate(R.layout.fragment_gallery, container, false)
-    val textView: TextView = root.findViewById(R.id.text_gallery)
-    galleryViewModel.text.observe(viewLifecycleOwner, Observer {
-      textView.text = it
+    misSitiosViewModel =
+            ViewModelProviders.of(this).get(misSitiosViewModel::class.java)
+    val root = inflater.inflate(R.layout.fragment_missitios, container, false)
+
+    misSitiosViewModel.text.observe(viewLifecycleOwner, Observer {
+
     })
     return root
   }
