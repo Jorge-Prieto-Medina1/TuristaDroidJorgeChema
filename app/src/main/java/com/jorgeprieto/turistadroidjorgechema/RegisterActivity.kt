@@ -1,5 +1,6 @@
 package com.jorgeprieto.turistadroidjorgechema
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -12,9 +13,10 @@ class RegisterActivity : AppCompatActivity() {
         btnGuardar.setOnClickListener {
             if (txtNombre.text.trim().isNotEmpty() || txtContrasena.text.trim().isNotEmpty()
                 || txtEmail.text.trim().isNotEmpty()|| txtNombreDeUsu.text.trim().isNotEmpty()) {
-                Toast.makeText(this, "Realizando Registro", Toast.LENGTH_LONG).show()
-
-
+                Toast.makeText(this, "Comprobando", Toast.LENGTH_LONG).show()
+                startActivity(Intent ( this@RegisterActivity, MisSitiosActivity::class.java))
+                finish();
+                
             } else {
 
                 Toast.makeText(this, "No se admiten campos vacios", Toast.LENGTH_LONG).show()
