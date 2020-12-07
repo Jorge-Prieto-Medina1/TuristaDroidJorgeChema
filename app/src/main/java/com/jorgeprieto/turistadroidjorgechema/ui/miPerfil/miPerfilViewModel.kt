@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.gallery
+package com.jorgeprieto.turistadroidjorgechema.ui.miPerfil
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

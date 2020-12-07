@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.home
+package com.jorgeprieto.turistadroidjorgechema.ui.misSitios
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -22,8 +22,8 @@ class MisSitiosFragment : Fragment() {
     savedInstanceState: Bundle?
   ): View? {
     misSitiosViewModel =
-            ViewModelProviders.of(this).get(misSitiosViewModel::class.java)
-    val root = inflater.inflate(R.layout.fragment_missitios, container, false)
+            ViewModelProviders.of(this).get(MisSitiosViewModel::class.java)
+    val root = inflater.inflate(R.layout.fragment_sitios, container, false)
 
     misSitiosViewModel.text.observe(viewLifecycleOwner, Observer {
 

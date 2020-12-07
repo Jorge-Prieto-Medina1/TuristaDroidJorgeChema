@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.slideshow
+package com.jorgeprieto.turistadroidjorgechema.ui.cercaDeMi
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
