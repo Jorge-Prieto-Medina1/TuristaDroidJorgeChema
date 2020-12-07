@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navPerfil"
+        android:background="@color/ColorAzulPrincipal"
+        tools:context=".ui.miPerfil.MiPerfilFragment"
+        >
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="200dp" android:layout_width="200dp" android:layout_marginTop="50dp"
+            android:layout_marginStart="40dp" android:layout_marginEnd="40dp"
+            android:src="@drawable/usuarioimagen" android:id="@+id/circleImageView"/>
+
+    <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/txtNombre"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:background="@android:color/background_light"
+            android:paddingHorizontal="10dp" android:hint="@string/txtNombre"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView" android:layout_marginTop="40dp"/>
+    <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/txtEmail"
+            app:layout_constraintTop_toBottomOf="@+id/txtNombre"
+            android:layout_marginTop="20dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:background="@android:color/background_light"
+            android:paddingHorizontal="10dp" android:hint="@string/txtEmail"/>
+
+    <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/txtContrasena"
+            android:hint="@string/txtContrasena" android:layout_marginTop="20dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtNombreDeUsu"
+            android:background="@android:color/background_light"
+            android:paddingHorizontal="10dp"/>
+    <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/txtNombreDeUsu"
+            android:hint="@string/txtNombreDeUsuario"
+            android:background="@android:color/background_light"
+            android:paddingHorizontal="10dp"
+            app:layout_constraintHorizontal_bias="0.503"
+            android:layout_marginTop="20dp" app:layout_constraintTop_toBottomOf="@+id/txtEmail"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_height="50dp" android:layout_width="50dp"
+            android:src="@drawable/facebook" android:id="@+id/imgFacebook"
+            android:layout_marginTop="26dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtContrasena" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_height="50dp" android:layout_width="50dp"
+            android:src="@drawable/twitter" android:id="@+id/imgTwitter"
+            android:layout_marginTop="26dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtContrasena" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.7"/>
+    <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_height="50dp" android:layout_width="50dp"
+            android:src="@drawable/instagram" android:id="@+id/imgInstagram"
+            android:layout_marginTop="26dp"
+            app:layout_constraintTop_toBottomOf="@+id/txtContrasena" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.3"/>
+    <Button
+            android:text="@string/btnGuardar"
+            android:layout_width="200dp"
+            android:layout_height="60dp" android:id="@+id/btnGuardar"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            android:background="@color/ColorAmarilloPrincipal" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="30dp" android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@+id/imgFacebook" android:layout_marginTop="5dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

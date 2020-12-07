@@ -7,15 +7,15 @@
 
     <fragment
         android:id="@+id/navSitios"
-        android:name="com.jorgeprieto.turistadroidjorgechema.ui.home.MisSitiosFragment"
+        android:name="com.jorgeprieto.turistadroidjorgechema.ui.misSitios.MisSitiosFragment"
         android:label="@string/menu_home"
-        tools:layout="@layout/fragment_missitios" />
+        tools:layout="@layout/fragment_sitios" />
 
     <fragment
         android:id="@+id/navPerfil"
-        android:name="com.jorgeprieto.turistadroidjorgechema.ui.gallery.MiPerfilFragment"
+        android:name="com.jorgeprieto.turistadroidjorgechema.ui.miPerfil.MiPerfilFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_miperfil" />
+        tools:layout="@layout/fragment_perfil" />
 
     <fragment
         android:id="@+id/navCerca"

@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.home
+package com.jorgeprieto.turistadroidjorgechema.ui.misSitios
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

@@ -10,7 +10,6 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.jorgeprieto.turistadroidjorgechema.R
-import com.jorgeprieto.turistadroidjorgechema.ui.slideshow.CercaDeMiViewModel
 
 class CercaDeMiFragment : Fragment() {
 

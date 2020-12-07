@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.gallery
+package com.jorgeprieto.turistadroidjorgechema.ui.miPerfil
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -20,8 +20,8 @@ class MiPerfilFragment : Fragment() {
     savedInstanceState: Bundle?
   ): View? {
     miPerfilViewModel =
-    ViewModelProviders.of(this).get(miPerfilViewModel::class.java)
-    val root = inflater.inflate(R.layout.fragment_miperfil, container, false)
+    ViewModelProviders.of(this).get(MiPerfilViewModel::class.java)
+    val root = inflater.inflate(R.layout.fragment_perfil, container, false)
 
     miPerfilViewModel.text.observe(viewLifecycleOwner, Observer {
 
