@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.jorgeprieto.turistadroidjorgechema" >
+    package="com.turistadroidjorgechema" >
 
     <application
         android:allowBackup="true"
@@ -22,7 +22,7 @@
         </activity>
         <activity android:name=".RegisterActivity" >
         </activity>
-        <activity android:name=".MisSitiosActivity" >
+        <activity android:name=".NavDrawerActivity" >
         </activity>
     </application>
 

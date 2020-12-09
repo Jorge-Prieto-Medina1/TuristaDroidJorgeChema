@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.cercaDeMi
+package navigationDrawer.ui.cercaDeMi
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.jorgeprieto.turistadroidjorgechema.R
+import com.turistadroidjorgechema.R
 
 class CercaDeMiFragment : Fragment() {
 

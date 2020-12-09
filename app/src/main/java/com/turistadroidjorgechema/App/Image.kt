@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.App
+package com.turistadroidjorgechema.App
 
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey

@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.miPerfil
+package navigationDrawer.ui.miPerfil
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import com.jorgeprieto.turistadroidjorgechema.R
+import com.turistadroidjorgechema.R
 
 class MiPerfilFragment : Fragment() {
 

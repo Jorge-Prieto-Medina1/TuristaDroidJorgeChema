@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         android:id="@+id/navPerfil"
         android:background="@color/ColorAzulPrincipal"
-        tools:context=".ui.miPerfil.MiPerfilFragment"
+        tools:context="navigationDrawer.ui.miPerfil.MiPerfilFragment"
         >
 
 

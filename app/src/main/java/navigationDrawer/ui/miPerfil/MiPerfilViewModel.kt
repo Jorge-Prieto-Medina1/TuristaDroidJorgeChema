@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.miPerfil
+package navigationDrawer.ui.miPerfil
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

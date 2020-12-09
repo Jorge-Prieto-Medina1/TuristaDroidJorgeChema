@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navSitios"
-        android:name="com.jorgeprieto.turistadroidjorgechema.ui.misSitios.MisSitiosFragment"
+        android:name="navigationDrawer.ui.misSitios.MisSitiosFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_sitios" />
 
     <fragment
         android:id="@+id/navPerfil"
-        android:name="com.jorgeprieto.turistadroidjorgechema.ui.miPerfil.MiPerfilFragment"
+        android:name="navigationDrawer.ui.miPerfil.MiPerfilFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_perfil" />
 
     <fragment
         android:id="@+id/navCerca"
-        android:name="com.jorgeprieto.turistadroidjorgechema.ui.cercaDeMi.CercaDeMiFragment"
+        android:name="navigationDrawer.ui.cercaDeMi.CercaDeMiFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_cercademi" />
 </navigation>

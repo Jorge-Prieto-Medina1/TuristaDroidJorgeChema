@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.Usuarios
+package com.turistadroidjorgechema.Usuarios
 
 import io.realm.RealmObject
 import io.realm.annotations.Index
