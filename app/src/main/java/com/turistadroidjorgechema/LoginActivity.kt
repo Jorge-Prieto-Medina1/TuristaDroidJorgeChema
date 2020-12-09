@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema
+package com.turistadroidjorgechema
 
 import android.content.Intent
 import android.graphics.Paint
@@ -16,7 +16,7 @@ class LoginActivity : AppCompatActivity() {
         btnGuardar.setOnClickListener {
             if (txtNombreDeUsu.text.trim().isNotEmpty() || txtContrasena.text.trim().isNotEmpty()) {
                 Toast.makeText(this, "Comprobando", Toast.LENGTH_LONG).show()
-                startActivity(Intent ( this@LoginActivity, MisSitiosActivity::class.java))
+                startActivity(Intent ( this@LoginActivity, NavDrawerActivity::class.java))
                 finish();
             } else {
 

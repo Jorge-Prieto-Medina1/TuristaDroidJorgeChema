@@ -7,7 +7,7 @@
         android:layout_height="match_parent"
         android:id="@+id/navMisSitios"
         android:background="@color/ColorAzulPrincipal"
-        tools:context=".ui.misSitios.MisSitiosFragment"
+        tools:context="navigationDrawer.ui.misSitios.MisSitiosFragment"
 >
 
 

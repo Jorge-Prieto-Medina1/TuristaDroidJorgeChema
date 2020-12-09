@@ -1,10 +1,10 @@
-package com.jorgeprieto.turistadroidjorgechema.lugares
+package com.turistadroidjorgechema.lugares
 
 import io.realm.RealmObject
 import io.realm.annotations.PrimaryKey
 import java.util.*
 import io.realm.RealmList
-import com.jorgeprieto.turistadroidjorgechema.App.Image
+import com.turistadroidjorgechema.App.Image
 
 open class Place (@PrimaryKey var id : Long = 0,
                   var nombre : String = "",

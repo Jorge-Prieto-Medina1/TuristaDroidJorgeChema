@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema
+package com.turistadroidjorgechema
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity

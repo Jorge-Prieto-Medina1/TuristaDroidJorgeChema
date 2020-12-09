@@ -1,13 +1,13 @@
-package com.jorgeprieto.turistadroidjorgechema.ui.misSitios
+package navigationDrawer.ui.cercaDeMi
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class MisSitiosViewModel : ViewModel() {
+class CercaDeMiViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is home Fragment"
+        value = "This is slideshow Fragment"
     }
     val text: LiveData<String> = _text
 }

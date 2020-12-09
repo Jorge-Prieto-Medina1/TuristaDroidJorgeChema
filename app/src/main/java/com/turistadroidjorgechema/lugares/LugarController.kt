@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.lugares
+package com.turistadroidjorgechema.lugares
 
 import io.realm.Realm
 import io.realm.kotlin.where
