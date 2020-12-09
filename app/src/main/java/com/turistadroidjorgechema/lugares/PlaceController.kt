@@ -3,7 +3,7 @@ package com.turistadroidjorgechema.lugares
 import io.realm.Realm
 import io.realm.kotlin.where
 
-object LugarController {
+object PlaceController {
 
     private const val DISTANCIA = 1000
 
