@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/navSitios"
+                android:icon="@android:drawable/ic_dialog_map"
+                android:title="@string/navMisSitios"/>
+        <item
+                android:id="@+id/navPerfil"
+                android:icon="@android:drawable/ic_menu_my_calendar"
+                android:title="@string/navMiPerfil"/>
+        <item
+                android:id="@+id/navCerca"
+                android:icon="@android:drawable/ic_menu_send"
+                android:title="@string/navCercaDeMi"/>
+        <item
+                android:id="@+id/navLinterna"
+                android:icon="@android:drawable/presence_invisible"
+                android:title="@string/navLinterna"/>
+        <item
+                android:id="@+id/navSalir"
+                android:icon="@android:drawable/ic_menu_revert"
+                android:title="@string/navSalir"/>
+    </group>
+</menu>

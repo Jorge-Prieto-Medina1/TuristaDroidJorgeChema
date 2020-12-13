@@ -1,3 +1,31 @@
 <resources>
     <string name="app_name">TuristaDroidJorgeChema</string>
+    <string name="nombreAppEnSplash">TURISTASDROID</string>
+    <string name="nombreApellidos">Realizado por Jorge Prieto y Chema Ruiz</string>
+    <string name="txtInicioDeSesion">INICIO DE SESIÓN</string>
+    <string name="txtNombreDeUsuario">NOMBRE DE USUARIO</string>
+    <string name="txtContrasena">CONTRASEÑA</string>
+    <string name="txtLogin">LOGIN</string>
+    <string name="txtNoCuenta">No tienes cuenta?</string>
+    <string name="txtRegistroGratis">Registro gratuito</string>
+    <string name="txtRegistro">REGISTRO</string>
+    <string name="txtNombre">NOMBRE</string>
+    <string name="txtEmail">EMAIL</string>
+    <string name="title_activity_mis_sitios">MisSitiosActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="navMisSitios">Mis sitios</string>
+    <string name="navMiPerfil">Mi perfil</string>
+    <string name="navCercaDeMi">Cerca de mi</string>
+    <string name="navLinterna">Linterna</string>
+    <string name="navSalir">Salir</string>
+    <string name="btnGuardar">Guardar</string>
+    <string name="fragMissitios">MIS SITIOS</string>
 </resources>
