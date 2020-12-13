@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema
+package com.turistadroidjorgechema
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -14,7 +14,7 @@ class RegisterActivity : AppCompatActivity() {
             if (txtNombre.text.trim().isNotEmpty() || txtContrasena.text.trim().isNotEmpty()
                 || txtEmail.text.trim().isNotEmpty()|| txtNombreDeUsu.text.trim().isNotEmpty()) {
                 Toast.makeText(this, "Comprobando", Toast.LENGTH_LONG).show()
-                startActivity(Intent ( this@RegisterActivity, MisSitiosActivity::class.java))
+                startActivity(Intent ( this@RegisterActivity, NavDrawerActivity::class.java))
                 finish();
                 
             } else {

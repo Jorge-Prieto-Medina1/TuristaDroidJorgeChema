@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema
+package com.turistadroidjorgechema
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -8,7 +8,11 @@ import android.os.Looper
 import android.view.WindowManager
 import android.view.animation.*
 import androidx.constraintlayout.motion.widget.MotionLayout
+<<<<<<< HEAD:app/src/main/java/com/jorgeprieto/turistadroidjorgechema/PantallaSplash.kt
 import com.jorgeprieto.turistadroidjorgechema.App.SessionController
+=======
+import com.turistadroidjorgechema.App.SessionController
+>>>>>>> validacion:app/src/main/java/com/turistadroidjorgechema/PantallaSplash.kt
 import kotlinx.android.synthetic.main.activity_pantalla_splash.*
 
 

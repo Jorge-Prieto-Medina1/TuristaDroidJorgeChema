@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema.App
+package com.turistadroidjorgechema.App
 
 import android.app.Application
 import android.util.Log

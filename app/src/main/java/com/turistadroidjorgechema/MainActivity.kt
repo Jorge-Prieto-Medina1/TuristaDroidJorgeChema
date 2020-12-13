@@ -1,4 +1,4 @@
-package com.jorgeprieto.turistadroidjorgechema
+package com.turistadroidjorgechema
 
 import android.graphics.Paint
 import android.os.Bundle
