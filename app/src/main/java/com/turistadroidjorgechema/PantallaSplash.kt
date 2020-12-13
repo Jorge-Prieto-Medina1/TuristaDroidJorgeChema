@@ -8,7 +8,7 @@ import android.os.Looper
 import android.view.WindowManager
 import android.view.animation.*
 import androidx.constraintlayout.motion.widget.MotionLayout
-import com.jorgeprieto.turistadroidjorgechema.App.SessionController
+import com.turistadroidjorgechema.App.SessionController
 import kotlinx.android.synthetic.main.activity_pantalla_splash.*
 
 
