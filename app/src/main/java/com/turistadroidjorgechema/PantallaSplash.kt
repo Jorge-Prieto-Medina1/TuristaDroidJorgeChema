@@ -6,10 +6,6 @@ import android.os.Bundle
 import android.view.WindowManager
 import android.view.animation.*
 import androidx.constraintlayout.motion.widget.MotionLayout
-<<<<<<< Updated upstream
-=======
-import com.turistadroidjorgechema.App.SessionController
->>>>>>> Stashed changes
 import kotlinx.android.synthetic.main.activity_pantalla_splash.*
 
 
